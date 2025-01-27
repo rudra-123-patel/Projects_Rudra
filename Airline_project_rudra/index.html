@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <h1 class="airline-text">
+                <i><span class="blue-text">AIR</span><span class="white-text">LINE</span></i>
+                <i><p>INTERNATIONAL TRAVEL</p></i>
+            </h1>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Aircraft</a></li>
+                    <li><a href="#">Safety</a></li>
+                    <li><a href="#">Charters</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+       
+    
+    </header>
+
+   
+
+    <section class="banner">
+        <div class="image_container">
+            <img src="/plane.jpg" alt="plane" class="bg_image">
+            <div class="text_overlay">
+                <h1>COMFORT<br>Guaranteed</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>ORDER TICKETS ONLINE</button>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="search">
+            <h2>Your Flight Planner</h2>
+            <form>
+
+                <div class="radio-button">
+                
+                <input type="radio" name="radio" id="round_trip">
+                <label for="round-trip">Round Trip</label>
+
+                <input type="radio" name="radio" id="oneway">
+                <label for="round-trip">One Way</label>
+                <br>
+
+                <input type="radio" name="radio" id="empty_leg">
+                <label for="round-trip">Empty Leg</label>
+
+                <input type="radio" name="radio" id="multi_leg">
+                <label for="round-trip">Multi Leg</label>
+                
+
+            </div>
+            <div class="destination">
+                
+                <label for="origin">Leaving From:</label><br>
+                <input type="text" id="origin" name="origin" placeholder="Enter origin city"><br>
+
+                <label for="destination">Going To:</label><br>
+                <input type="text" id="destination" name="destination" placeholder="Enter destination city"><br>
+
+                <label for="date">Departure Date And Time:</label>
+                <br>
+                <input type="date" id="date" name="date">
+                <input type="time" id="time" name="time"><br>
+
+                <label for="date">Return Date And Time:</label>
+                <br>
+                <input type="date" id="date" name="date">
+                <input type="time" id="time" name="time"><br>
+
+                <label for="passenger">Passenger(s):</label><br>
+                <input type="number" id="number" name="number" min="1" max="9"><br>
+
+                <button type="submit">Search</button>
+
+            </div>
+
+            <div class="recent_news">
+                <p><i>RECENT NEWS</i></p>
+                <span class="news_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+                <p id="date_news">December 7, 2022</p>
+                <hr class="line">
+
+                <span class="news_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+                <p id="date_news">November 5, 2020</p>
+                <hr class="line">
+
+                <span class="news_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+                <p id="date_news">January 10, 2019</p>
+                <hr class="line">
+
+
+            </div>
+            </form>
+        </section>
+
+        <section class="airline-info">
+            <span class="info_text">
+            <h2><i>Welcome To Our Website!</i></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nihil architecto unde quidem, repellendus sapiente fuga commodi laudantium molestiae eveniet id facilis perferendis fugit ex iure magni tempora repudiandae sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis quod molestias exercitationem? Adipisci vero illo eligendi obcaecati temporibus. Sunt placeat laudantium nulla animi maxime architecto, excepturi id! Vitae fugit sapiente est rem asperiores unde illum. Ullam sed omnis reprehenderit!</p>
+        </span>
+
+            <div class="aircraft_info">
+                <ul>
+                    <li><b>Aircraft</b>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, aliquam!
+                        </p>
+                        <button type="button">Read More</button>
+                    </li>
+                    <li><b>Charters</b>
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit, incidunt porro vel est, illo facere placeat eaque harum beatae dolore aperiam. Reiciendis itaque dolor repudiandae, ratione officiis et exercitationem.</p>
+                    </li>
+                    
+                </ul>
+
+                <div class="client">
+                    <div class="client-text">
+                      <h2><i>Our Clients</i></h2>
+                      <p>Avero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                      <p>Atque corrupti quos dolores et quas molestias excepturi sint <a href="#" style="color: #3498db; text-decoration: underline;">occaecati cupiditate</a> non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                    </div>
+                    <div class="client_word">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                      <br>
+                      <p><i>Mr. Thomas Lloyd</i></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Airline Reservation System. All Rights Reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Help Center</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
